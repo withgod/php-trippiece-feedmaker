@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9e45915e44079652abd3c409a1fcd854",
+    "hash": "8d7d8b3c0ee21d2a28657d256a9bd7cd",
     "packages": [
         {
             "name": "desarrolla2/cache",
@@ -127,6 +127,54 @@
                 "caching"
             ],
             "time": "2015-04-15 00:11:59"
+        },
+        {
+            "name": "fguillot/picofeed",
+            "version": "v0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fguillot/picoFeed.git",
+                "reference": "efa4a3ff139d147ac294070d8b60005abefa19ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fguillot/picoFeed/zipball/efa4a3ff139d147ac294070d8b60005abefa19ad",
+                "reference": "efa4a3ff139d147ac294070d8b60005abefa19ad",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-iconv": "*",
+                "ext-libxml": "*",
+                "ext-simplexml": "*",
+                "ext-xml": "*",
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "ext-curl": "PicoFeed will use cURL if present"
+            },
+            "bin": [
+                "picofeed"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PicoFeed": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frédéric Guillot",
+                    "homepage": "http://fredericguillot.com"
+                }
+            ],
+            "description": "Modern library to write or read feeds (RSS/Atom)",
+            "homepage": "http://fguillot.github.io/picoFeed",
+            "time": "2015-06-21 13:45:50"
         },
         {
             "name": "guzzlehttp/guzzle",

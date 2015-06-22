@@ -1,10 +1,10 @@
 {
     "name": "withgod/trip-rss",
     "require": {
-        "mibe/feedwriter": "^1.0",
         "slim/slim": "^2.6",
         "guzzlehttp/guzzle": "^6.0",
-        "desarrolla2/cache": "^1.8"
+        "desarrolla2/cache": "^1.8",
+        "fguillot/picofeed": "^0.1.4"
     },
     "authors": [
         {
